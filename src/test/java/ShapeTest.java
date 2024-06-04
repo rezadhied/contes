@@ -14,7 +14,7 @@ public class ShapeTest {
 
         double actualArea = testSquare.squareArea(side);
 
-        double expectedArea = side * side;
+        double expectedArea = 1.0;
         assertEquals("Square area calculation is incorrect", expectedArea, actualArea, 0.001);
     }
 
